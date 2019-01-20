@@ -1,6 +1,6 @@
 /* 
  * creature.js
- * Created by Jorge Gonzalez, January, 10, 2019.
+ * Created by Jorge Gonzalez, jorgonlor@gmail.com, January, 10, 2019.
  * Released under MIT License - see LICENSE file for details.
  */
 
@@ -148,7 +148,7 @@ class Creature
 		}
 		this.angle = new_angle;
 
-		if(this.negativePropulsionCount > 250) {
+		if(this.negativePropulsionCount > 180) {
 			this.alive = false;
 			console.log("Death by too negative propulsion");
 		}
